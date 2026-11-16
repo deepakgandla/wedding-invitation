@@ -4,6 +4,17 @@
   const setText = (id, value) => { if ($(id) && value) $(id).textContent = value; };
 
   document.title = config.pageTitle || document.title;
+
+  const opening = $("invitationOpening");
+  const openButton = $("openInvitation");
+  if (opening && openButton) {
+    openButton.addEventListener("click", () => {
+      opening.classList.add("is-closing");
+      window.setTimeout(() => opening.remove(), 800);
+    }, { once: true });
+  }
+
+
   setText("partnerOne", config.partnerOne);
   setText("partnerTwo", config.partnerTwo);
   setText("heroEyebrow", config.eyebrow);
