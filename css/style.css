@@ -79,3 +79,21 @@ a { color: inherit; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Telugu invitation typography */
+.telugu, .telugu-blessing, .telugu-invite, .telugu-body, .venue-telugu, .telugu-rsvp, .telugu-footer {
+  font-family: "Noto Serif Telugu", serif;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.telugu-blessing { margin: 0 0 1.25rem; color: var(--gold); font-size: clamp(1rem, 2.5vw, 1.3rem); }
+.invitation-line.telugu { font-size: clamp(1rem, 2.5vw, 1.35rem); font-style: normal; }
+.telugu-invite { max-width: 38rem; margin: .35rem auto 1.2rem; color: var(--olive-dark); font-size: clamp(.95rem, 2.2vw, 1.12rem); line-height: 2; }
+.telugu-body { max-width: 42rem; margin: 1rem auto 0; color: rgba(247,243,233,.86); font-size: clamp(1rem, 2.4vw, 1.18rem); line-height: 2.1; }
+.venue-telugu { margin: .25rem 0; color: var(--olive); font-size: 1rem; }
+.telugu-rsvp { margin: -1.3rem auto 2rem; color: var(--olive-dark); font-size: 1.1rem; line-height: 2; }
+.telugu-footer { color: rgba(247,243,233,.8); font-size: 1rem; }
+@media (max-width: 480px) {
+  .telugu-blessing { margin-top: .5rem; }
+  .telugu-invite { max-width: 22rem; }
+}
