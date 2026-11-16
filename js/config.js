@@ -1,27 +1,25 @@
 /*
- * Update this file with the real wedding details.
+ * Wedding invitation details.
  * Keep private phone numbers and guest lists out of this public repository.
  */
 window.WEDDING_CONFIG = {
-  partnerOne: "Your Name",
-  partnerTwo: "Your Partner",
-  pageTitle: "A Wedding Celebration",
+  partnerOne: "Deepak",
+  partnerTwo: "Praveena",
+  pageTitle: "Deepak & Praveena — Wedding Invitation",
   eyebrow: "WITH THE BLESSINGS OF OUR FAMILIES",
-  weddingDate: "2027-02-14T10:00:00+05:30",
-  displayDate: "14 February 2027",
-  city: "Hyderabad, Telangana",
-  welcomeMessage: "With hearts full of joy and gratitude, we invite you to be part of a celebration surrounded by family, friendship and love. Your presence will make our day even more meaningful.",
+  weddingDate: "2026-12-19T04:00:00+05:30",
+  displayDate: "19 December 2026 · 4:00 AM",
+  city: "Jagitial, Telangana",
+  welcomeMessage: "With hearts full of joy and gratitude, we invite you to be part of our wedding celebration. Your presence and blessings will make our special day even more meaningful.",
   venue: {
-    name: "The Celebration Venue",
-    address: "Add the full venue address, Hyderabad, Telangana",
-    time: "Ceremony begins at 10:00 AM",
-    mapsUrl: "https://maps.google.com/?q=Hyderabad"
+    name: "ABC Functional Hall",
+    address: "Jagitial, Telangana",
+    time: "Wedding ceremony begins at 4:00 AM",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=ABC+Functional+Hall+Jagitial"
   },
   events: [
-    { title: "Haldi", date: "Add date", time: "Add time", description: "A joyful gathering filled with sunshine, colour and blessings.", icon: "✿" },
-    { title: "Wedding Ceremony", date: "14 February 2027", time: "10:00 AM onwards", description: "Join us as we celebrate our vows and begin a beautiful new chapter.", icon: "❋" },
-    { title: "Reception", date: "Add date", time: "Add time", description: "An evening of warm wishes, laughter, music and togetherness.", icon: "✧" }
+    { title: "Wedding Ceremony", date: "19 December 2026", time: "4:00 AM onwards", description: "Join us as we celebrate our vows and begin a beautiful new chapter together.", icon: "❋" }
   ],
-  rsvp: { deadline: "Add RSVP deadline", url: "mailto:hello@example.com?subject=Wedding%20RSVP" },
+  rsvp: { deadline: "To be announced", url: "" },
   music: { src: "", volume: 0.25 }
 };
